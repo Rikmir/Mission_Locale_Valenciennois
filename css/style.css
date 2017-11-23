@@ -1,0 +1,113 @@
+
+#brand-image{
+  height: 90px;
+  width: 180px;
+  position: absolute; z-index: 5;
+}
+
+#taille{
+  height: 570px;
+  width: 100%;
+}
+
+#logomlv {
+  height: 40px;
+  width: auto;
+}
+
+#bar-content {
+  background-color: rgb(240, 240, 240);
+  margin-top: 8px;
+}
+
+#map {
+  height: 500px;
+  width: auto;
+}
+
+#title-info-ori-acc {
+  background-color: rgb(230, 230, 230);
+  padding: 3%;
+  width: 100%;
+}
+
+#content-info-ori-acc {
+  background-color: rgb(90, 150, 40);
+  padding: 1%;
+}
+
+nav{
+  background: #f0ad4e;
+}
+
+strong {
+  font-weight: bold;
+}
+
+div div.row img.img-circle {
+  height: 175px;
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.marg{
+  margin-top: 50px;
+}
+
+.taille{
+  height: 50px;
+}
+
+.marjorie{
+padding-top: 15px;
+}
+
+.content {
+  margin: 8% 8%;
+}
+
+.marg-bot-top {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.marg-bot {
+  margin-bottom:2%;
+}
+
+.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 0;
+}
+
+.backgrey {
+  background-color: rgb(240, 240, 240);
+}
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .taille {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  #logomlv {
+    display: none;
+  }
+}
